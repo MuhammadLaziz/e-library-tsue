@@ -15,15 +15,15 @@
       <div
         class="w-full h-[100vh] bg-[#E8EAED] hidden absolute modal transition-all duration-300 flex items-center justify-center"
       >
-        <form
-          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col rounded p-5 w-[30%] h-auto bg-white"
-        >
         <button
           onclick="closeModal()"
-          class="text-blue-400 font-bold text-2xl absolute z-[1000] top-0 right-5"
+          class="text-blue-400 font-bold text-2xl absolute z-[1000] top-[206px] left-[62%]"
         >
           x
         </button>
+        <form
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col rounded p-5 w-[30%] h-auto bg-white"
+        >
           <label for="fullname flex flex-col w-full"
             >Islingiz
             <input
@@ -61,7 +61,7 @@
             >E Library</a
           >
           <div class="flex items-center">
-            <a href="#books" class="mr-3 hover:text-blue-400 transition-all"
+            <a href="./index.html" class="mr-3 hover:text-blue-400 transition-all"
               >Kitoblar</a
             >
             <a
@@ -100,18 +100,15 @@
 
         <div id="books" class="w-full pt-10">
           <h1 class="pb-2 font-bold text-4xl">Kitoblar</h1>
-          <div class="grid grid-cols-12 gap-5">
-            <a href="./book.html" class="block border rounded-md w-[250px] h-[300px] col-span-3 group">
-              <img
-                src="./otkan_kunlar.jfif"
-                alt="book img"
-                class="w-[70%] group-hover:scale-125 transition-all duration-300 mx-auto h-[80%] border"
-              />
-              <div class="px-3 py-1">
-                <h1 class="font-bold text-xl">O'tkan kunlar asari</h1>
-                <p class="text-green-500">Available</p>
-              </div>
-            </a>
+
+          <div class="border border-grey rounded w-full p-5">
+            <h2 class="font-bold text-3xl">Otkan kunlar asari</h2>
+            <p class="text-2xl text-grey-500 font-medium my-3">Mualif: Abdulla Qodiriy</p>
+            <p class="text-base text-black font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel sit recusandae totam quidem debitis nobis, aspernatur, accusamus doloribus eos voluptates officia perferendis, amet repudiandae illum neque sequi quibusdam corporis eaque. Ducimus nulla amet delectus quia iste! Quasi deleniti aut aliquid! Officiis, nulla! Officiis ipsum, illum dolor deserunt ab iusto ullam dicta, necessitatibus temporibus, explicabo sed suscipit autem. Nostrum neque similique ea porro consequatur placeat soluta officiis quo? Sapiente voluptatem aliquam assumenda voluptate reprehenderit, nihil, accusamus cum exercitationem inventore quaerat ut soluta quis est reiciendis laboriosam ex nam a vitae, ea similique. Blanditiis dignissimos id tenetur! Repellendus dolorem laboriosam, ipsam beatae dolores maxime tempore vero earum eligendi obcaecati quas nulla repudiandae reprehenderit cumque doloribus temporibus exercitationem nobis inventore. Ad incidunt atque enim accusamus itaque quos hic labore nisi tenetur inventore cum aliquid deleniti tempore, eos magnam magni dignissimos repudiandae porro, sunt officia repellendus! Vitae, sapiente maxime non magnam sed nulla.</p>
+            <img src="./otkan_kunlar.jfif" alt="img" class="mx-auto mt-10 w-1/2">
+        </div>
+
+          <!-- <div class="grid grid-cols-12 gap-5">
             <div class="border rounded-md w-[250px] h-[300px] col-span-3 group">
               <img
                 src="./otkan_kunlar.jfif"
@@ -131,7 +128,18 @@
               />
               <div class="px-3 py-1">
                 <h1 class="font-bold text-xl">O'tkan kunlar asari</h1>
-                <p class="text-red-500">Not Available</p>
+                <p class="text-green-500">Available</p>
+              </div>
+            </div>
+            <div class="border rounded-md w-[250px] h-[300px] col-span-3 group">
+              <img
+                src="./otkan_kunlar.jfif"
+                alt="book img"
+                class="w-[70%] group-hover:scale-125 transition-all duration-300 mx-auto h-[80%] border"
+              />
+              <div class="px-3 py-1">
+                <h1 class="font-bold text-xl">O'tkan kunlar asari</h1>
+                <p class="text-green-500">Available</p>
               </div>
             </div>
             <div class="border rounded-md w-[250px] h-[300px] col-span-. group">
@@ -164,17 +172,6 @@
               />
               <div class="px-3 py-1">
                 <h1 class="font-bold text-xl">O'tkan kunlar asari</h1>
-                <p class="text-red-500">Not available</p>
-              </div>
-            </div>
-            <div class="border rounded-md w-[250px] h-[300px] col-span-3 group">
-              <img
-                src="./otkan_kunlar.jfif"
-                alt="book img"
-                class="w-[70%] group-hover:scale-125 transition-all duration-300 mx-auto h-[80%] border"
-              />
-              <div class="px-3 py-1">
-                <h1 class="font-bold text-xl">O'tkan kunlar asari</h1>
                 <p class="text-green-500">Available</p>
               </div>
             </div>
@@ -189,7 +186,18 @@
                 <p class="text-green-500">Available</p>
               </div>
             </div>
-          </div>
+            <div class="border rounded-md w-[250px] h-[300px] col-span-3 group">
+              <img
+                src="./otkan_kunlar.jfif"
+                alt="book img"
+                class="w-[70%] group-hover:scale-125 transition-all duration-300 mx-auto h-[80%] border"
+              />
+              <div class="px-3 py-1">
+                <h1 class="font-bold text-xl">O'tkan kunlar asari</h1>
+                <p class="text-green-500">Available</p>
+              </div>
+            </div>
+          </div> -->
         </div>
 
         <div class="mt-[60px]">
